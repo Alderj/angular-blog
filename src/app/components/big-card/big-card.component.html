@@ -1,19 +1,22 @@
 <div class="container-big-card">
 
     <div class="big-card-photo">
-        <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/AD72115B9CDAE873B2234BD0908CEF7B45A2D9AD9C66C699239B46E582F70A8B/scale?width=1200&aspectRatio=1.78&format=jpeg" alt="" width="100%">
+        <img src= "{{photoCover}}"
+            alt="" width="100%">
     </div>
 
     <div class="big-card-title">
         <h2>
             <a href="#">
-                Saiu a nova versão do Angular
+                {{ cardTitle }}
             </a>
         </h2>
     </div>
 
     <div class="big-card-description">
-        <p><a href="#">Google lança a nova versão da sua framework, que ja está na versão 16</a></p>
+        <p><a href="#">
+            {{ cardDescription }}
+        </a></p>
     </div>
 
 </div>
