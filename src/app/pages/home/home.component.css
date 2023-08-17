@@ -1,0 +1,8 @@
+.container-articles {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 1080px;
+    border: 1px solid pink;
+}

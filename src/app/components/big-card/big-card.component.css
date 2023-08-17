@@ -11,12 +11,18 @@
     padding: 15px;
 }
 
+
+.big-card-photo{
+    width: 100%;
+    min-width: 100%;
+}
+
 .big-card-title{
   font-size: 15px; 
   margin-top: 10px;
 }
 
-.big-card-description > p{
+.big-card-description > p > a{
     color: gray;
     font-weight: 300;
     margin-top: 10px;
