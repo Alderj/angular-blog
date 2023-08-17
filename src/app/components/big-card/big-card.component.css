@@ -1,5 +1,5 @@
 .container-big-card{
-    border: 1px solid blanchedalmond;
+    /*border: 1px solid blanchedalmond;*/
     width: 400px;
     height: 440px;
 
@@ -8,7 +8,7 @@
     align-items: flex-start;
     justify-content: flex-start;
 
-    padding: 15px;
+    
 }
 
 
